@@ -9,7 +9,7 @@ To get this application running, make sure you do the following in the Terminal:
 5. `python seed.py`
 6. `flask run`
 
-**Create** local Database `postgresql://localhost/<DBName>?user=<username>&password=<password>`
+**Create** local Database `postgresql://localhost/<DataBaseName>?user=<username>&password=<password>`
 
 **Note**:
 If you are using Python 3.8 instead of 3.7, then you will have issues with installing some of the packages in the requirements.txt file into your virtual environment.
