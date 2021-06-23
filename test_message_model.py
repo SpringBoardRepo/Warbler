@@ -48,11 +48,9 @@ class MessageTestModel(TestCase):
 
     def test_messsage_likes(self):
 
-        msg1 = Message(text="c", user_id=self.user_id)
+        msg1 = Message(text="test message", user_id=self.user_id)
 
-        msg2 = Message(text="test message", user_id=self.user_id)
-
-        db.session.add_all([msg1, msg2])
+        db.session.add(msg1)
         db.session.commit()
         msg1.id = 101
         msg_id = msg1.id
