@@ -16,4 +16,4 @@ If you are using Python 3.8 instead of 3.7, then you will have issues with insta
 For Python 3.8 pepole, we recommend deleting pyscopg2-binary from the requirements.txt file, and using pip install pyscopg2-binary in the terminal in order to successfully install this package.
 
 **To run the tests**:
-python -m unittest <name-of-python-file>
+`python -m unittest <name-of-python-file>`
